@@ -1,12 +1,16 @@
 * {
     margin: 0px;
+   
 }
 nav {
     text-align: center;
     background-color: azure;
     font-size: medium;
-    position: relative;
     padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 nav > ul li {
@@ -23,6 +27,8 @@ nav li > a {
 nav li.button {
     border: solid 2px black;
     background-color: orange;
+    padding-bottom: 3px;
+    padding-top: 3px;
     
 }
 
@@ -30,9 +36,10 @@ nav li.button:hover {
     background-color: springgreen;
 }
 
+
 div {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 85px;
     box-sizing: border-box;
     
 }
